@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Django
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+
+# SQLite Database
+*.sqlite3
+
+# FastAPI Uploads
+uploads/
+
+# Pytest
+.pytest_cache/
+
+# Migrations Cache
+*/migrations/__pycache__/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Build Files
+dist/
+build/
+*.egg-info/
+
+# OS Files
+.DS_Store
+Thumbs.db
